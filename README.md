@@ -3,6 +3,12 @@
 ## Overview
 This project is a front-end web application inspired by Meesho, built with React.js to provide a seamless and visually appealing shopping experience. The app allows users to browse products, manage their cart, and handle user authentication efficiently. The project integrates modern design principles and robust state management to ensure a smooth and responsive user interface
 
+## Deployment
+The application is deployed on vercel and can be accessed at :
+
+## Screenshots
+
+
 ## Technologies used
 
 • React.js\
@@ -31,7 +37,7 @@ This project is a front-end web application inspired by Meesho, built with React
 
 ### **Clone the repository:**
 ```bash
-git clone 
+git clone https://github.com/priya1599/Meesho-WebApp
 cd Meesho-Webapp
 ```
 
