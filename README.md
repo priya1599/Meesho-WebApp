@@ -5,12 +5,12 @@ This project is a front-end web application inspired by Meesho, built with React
 
 ## Technologies used
 
-• React.js
-• Redux Toolkit
-• Firebase Authentication
-• Tailwind CSS
-• Axios
-• React Router
+• React.js\
+• Redux Toolkit\
+• Firebase Authentication\
+• Tailwind CSS\
+• Axios\
+• React Router\
 • Vercel (for deployment)
 
 In the project directory, you can run:
