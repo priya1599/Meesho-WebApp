@@ -62,7 +62,7 @@ const handleSearch = (e) => {  //Search Handle
 
           <div className='relative shrink h-10 flex items-center justify-center mt-3 xl:ml-12 ml-1 border border-gray-500 rounded-md '>
             <CiSearch className='absoute  ml-3 xl:w-10 xl:h-7 h-4 w-6 text-left text-gray-500 '/>
-            <input className='xl:w-96 lg:w-20 w-10  h-6  text-base items-center justify-center flex mt border-none outline-none'
+            <input className='xl:w-96 lg:w-52 w-32  h-6  text-base items-center justify-center flex mt border-none outline-none'
              type="text"
              placeholder='Try Saree, Kurti or Search by Product Code' 
              value={searchQuery}
