@@ -86,7 +86,7 @@ const handleSearch = (e) => {  //Search Handle
 
         {/* Right side of the navigation bar */}
         <div className='relative   flex items-center justify-between mx-8'>
-            <div className='hidden sm:ml-6 sm:block  '>
+            <div className='hidden sm:ml-2 sm:block  '>
             <div className=' flex space-x-4 items-center justify-center mt-3 '>
 
               {/* Download App */}
@@ -131,8 +131,8 @@ const handleSearch = (e) => {  //Search Handle
               <div className='flex mt-3 xl:ml-2 ml-0 xl:gap-7 gap-2 '>
                     {/* Profile */}
                 <div className='items-center xl:ml-8 ml-0 cursor-pointer hover:text-[#98208e] hover:border-b-2  hover:border-[#98208e]'>
-                  <IoPersonOutline className='ml-3 text-lg' />
-                  <button className='text-lg ' onClick={toggleButtton}>Profile</button>
+                  <IoPersonOutline className='ml-3 xl:text-lg text-sm' />
+                  <button className='xl:text-lg text-sm ' onClick={toggleButtton}>Profile</button>
                   {/* DropDown List for Profile which has signin button */}
                   {
                     toggle && (
@@ -162,8 +162,8 @@ const handleSearch = (e) => {  //Search Handle
 
                <Link to={"/AddToCart"}>
                <div className='cursor-pointer hover:text-[#98208e]  hover:border-b-2  hover:border-[#98208e]'>
-                   <BsCart2 className='xl:ml-2 ml-0 text-lg' />
-              <p className='text-lg '>Cart</p>
+                   <BsCart2 className='xl:ml-2 ml-0 xl:text-lg text-sm' />
+              <p className='xl:text-lg text-sm'>Cart</p>
              <span className='absolute top-1 bg-black text-sm text-white rounded-full xl:ml-3   flex items-center justify-center font-semibold p-1 h-4'>
                   {products.length > 0 ? products.length : 0}</span>
                 </div>
