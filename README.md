@@ -33,13 +33,13 @@ The application is deployed on vercel and can be accessed at: (https://meesho-we
 
 ## Features:
 
-1]  Frontend Interface Development: A visually appealing frontend interface inspired by Meesho, incorporating modern design principles and elements.
-2] User Authentication and Cart Management: Features for user login, signup, and cart management, ensuring smooth interaction and data handling.
-3] Browse Products Without Login/Signup: Users can browse products without needing login/signup.
-4] Data Management with Redux Toolkit: Efficient state management and data flow using Redux Toolkit.
-5] Authentication Methods: Utilizes Firebase authentication for secure and reliable user authentication.
-6] Search Functionality: Allows users to search for products easily.
-7] Documentation and Deployment: Clear instructions for deploying and accessing the application.
+1] **Frontend Interface Development**: A visually appealing frontend interface inspired by Meesho, incorporating modern design principles and elements./
+2] **User Authentication and Cart Management**: Features for user login, signup, and cart management, ensuring smooth interaction and data handling./
+3] **Browse Products Without Login/Signup**: Users can browse products without needing login/signup./
+4] **Data Management with Redux Toolkit**: Efficient state management and data flow using Redux Toolkit./
+5] **Authentication Methods**: Utilizes Firebase authentication for secure and reliable user authentication./
+6] **Search Functionality**: Allows users to search for products easily./
+7] **Documentation and Deployment**: Clear instructions for deploying and accessing the application.
 
 ## How to Run:
 
