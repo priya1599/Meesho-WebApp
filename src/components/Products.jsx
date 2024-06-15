@@ -48,11 +48,11 @@ function Products() {
    
    <div className='flex items-center justify-center gap-6 mb-8'>
   
-        <button onClick={()=> filterItems("women's clothing")}
+        <button onClick={()=> filterItems("Women's Clothing")}
          className='text-lg xl:text-2xl font-normal hover:underline xl:font-semibold hover:text-[#98208e] hover:active:text-[#98208e]'>Women</button>
-        <button onClick={()=> filterItems("men's clothing")} className='text-lg hover:underline xl:text-2xl font-normal  xl:font-semibold hover:text-[#98208e] hover:active:text-[#98208e]'>Men</button>
-        <button onClick={()=> filterItems("jewelery")} className='text-lg xl:text-2xl hover:underline font-normal  xl:font-semibold hover:text-[#98208e] hover:active:text-[#98208e]'>Jewellery</button>
-        <button onClick={()=> filterItems("electronics")} className='text-lg xl:text-2xl hover:underline font-normal  xl:font-semibold hover:text-[#98208e] hover:active:text-[#98208e]'>Electronics</button>
+        <button onClick={()=> filterItems("Men's Clothing")} className='text-lg hover:underline xl:text-2xl font-normal  xl:font-semibold hover:text-[#98208e] hover:active:text-[#98208e]'>Men</button>
+        <button onClick={()=> filterItems("Jewelry")} className='text-lg xl:text-2xl hover:underline font-normal  xl:font-semibold hover:text-[#98208e] hover:active:text-[#98208e]'>Jewellery</button>
+        <button onClick={()=> filterItems("Electronics")} className='text-lg xl:text-2xl hover:underline font-normal  xl:font-semibold hover:text-[#98208e] hover:active:text-[#98208e]'>Electronics</button>
     </div>
 
     {/* filter button to sort the price from */}
