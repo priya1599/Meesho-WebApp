@@ -73,7 +73,7 @@ const handleSearch = (e) => {  //Search Handle
               <ul>
                 {filteredProducts.map((item) => (
                   <li key={item.id} className="p-2 hover:bg-gray-200">
-                    <Link to={`/product/${item.id}`}>
+                    <Link to={`/api/product/${item._id}`}>
                       {item.title}
                     </Link>
                   </li>
